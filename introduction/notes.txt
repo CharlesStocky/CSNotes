@@ -1,0 +1,146 @@
+
+computational computing - using a computer to achieve tasks so you don't have to 
+abstraction - makes computing easy to understand for humans 
+There are commonalities between algorithms 
+
+WHAT DOES A COMPUTER DO?
+performs calculations very fast 
+they remember things
+
+HOW FAST? 
+1 billion computations per second
+
+WHAT KIND OF CALCULATIONS?
+built in logic - addition, multiplication, boolean operations
+abstract over basic logic to solve complex problems
+
+Turing halting problem - program that takes another program that predicts if it will work - impossible
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Divide knowledge into two different types - imperative and declarative
+imperative - recipe, instructions are descriptive and mechanical
+declarative - focuses on what instead of how - relating to facts
+
+FINDING SQUARE ROOT: 
+square root of a number 'x' is 'y' such that y*y=x 
+start with guess 'g'
+if g*g is close enough to x, stop  
+if not, take a new guess by averaging 'g' and x/g
+
+what is recipe? 
+-sequence of steps
+-flow of control - when to take steps
+-means of determining when to stop
+
+such is the logic of algorthmic thinking
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MACHINES
+
+calculator - fixed program computer
+BOMBE - designed during ww2 to break german codes using the enigma machine  
+
+modern computers - stored program computer. takes 'recipes' and has parts to execute recipes on command 
+interprator - walk through recipe, produce results of recipes - executes operations in order
+Stored program computer - performs operations of fixed operation-computers, 'all in one'
+
+MEMORY - temporarily stored - data, recipes or 'programs' 
+ALU - arithmetic logic unit - does primitive ops - stored in memory
+CONTROL UNIT - 'controller' for ALU - points to 'recipe' program counter - register on computer taht contains the address of the instruction being executed 
+when stopped - prints to output
+
+Turing showed you could compute anything using 6 primitives - move left, move right, scan, read, write, do nothing "Turing machine"
+Turing complete - says that any programming language that is able to compute something can be computed by any other Turing-complete programming language
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+expression - legal combination of primitives - has values or "meaning"
+
+primitives - english words
+complete program - sentences using primitives
+syntax - parsing of sentence, is it a 'legal' sentence
+meaning - the result of syntactically valid 'recipes'
+
+semantics - could be syntactically valid, but is invalid IE why some people dislike Javascript: 5 + "1" has meaning within Javascript, but not type-safe programming languages  
+
+any syntactically/semantically correct programming language has one value, not the same for spoken language
+
+compiled - checks for semantic errors 
+uncompiled - checks for semantic / syntactical errors on the fly
+
+BUGS BUGS BUGS BUGS 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PYTHON PROGRAMS
+
+program - sequence of definitions and commands
+definitions - evaluated
+commands - executed
+
+OBJECTS
+programs manipulate data objects
+objects have a type - what kind of thing it is
+type - tells programs whether it can act on it or not
+scalars - can be subdivided:
+  - int 
+  - float
+  - bool 
+  - NoneType - None
+  - can use Type() procedure to see type of object
+
+CASTING - changing of object's type
+
+logging returns no value, not stored for later use
+
+syntax for expression - object operator object - has value if snytactically valid
+
+// - integer, not float 
+
+OrderOfOps
+exponentation
+multiplication
+division 
++ -
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VARIABLES = 
+
+(Python variables)
+
+pi = 3.14159
+
+pi_approx = 3.14159 / 2 - | variable = value of expression - stored in memory - availble while program is being executed within shell 
+
+Humans do not 'solve for x' within programming - programs do
+
+assignment - find value on right - name on left 
+
+incrementing +=
+
+rebinding variabel names using new assignment
+previous value still stored, but lost
+value does not change until you tell the computer to do the calculation again
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMPARISON OPERATORS ON INT AND FLOAT
+
+Branching program - conditional - a test expression that evaluates to true or false
+block of code executed if the test is true
+optional block of code if code executed is false
+
+python syntax - input - waits for user input 
+
+test 
+true block
+false block
+
+INDENTATION MATTERS (in python)
+
+nest conditionals 
